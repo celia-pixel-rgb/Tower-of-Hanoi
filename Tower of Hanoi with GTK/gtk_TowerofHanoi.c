@@ -1,16 +1,3 @@
-/*
-============================================================
-   TOWER OF HANOI — GTK4 GRAPHICAL VERSION
-   Beginner-Friendly Fully Commented Version
-
-   Compile (Linux with GTK4):
-   gcc gtk_TowerofHanoi.c -o hanoi `pkg-config --cflags --libs gtk4` -lm
-
-   Run:
-   ./hanoi
-============================================================
-*/
-
 #include <gtk/gtk.h>   // GTK library (GUI elements)
 #include <math.h>      // Math functions
 #include <string.h>    // memset
